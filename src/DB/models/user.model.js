@@ -7,7 +7,10 @@ export const gendertypes={
 }
 export const roletypes={
     user:"user",
-    admin:"admin"
+    admin:"admin",
+    HR:"HR",
+    owner:"owner"
+    
 }
 export const providertypes={
     system:"system",

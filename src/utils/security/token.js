@@ -26,6 +26,8 @@ export const decodedtoken=async({authorization="",tokentype=tokentypes.access,ne
            refresh_signature=process.env.ADMIN_REFRESH_TOKEN;
             access_signature=process.env.ADMIN_ACCESS_TOKEN;
             break;
+             case "hr":
+             case "owner":
             case "user":
                 access_signature=process.env.USER_ACCESS_TOKEN;
             refresh_signature=process.env.USER_REFRESH_TOKEN;
